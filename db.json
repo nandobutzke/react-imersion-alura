@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Minecraft",
+      "descricao": "Melhores vídeos de Minecraft",
+      "cor": "#6bd1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Outra",
+      "descricao": "Outra Categoria",
+      "cor": "#6bd1ff"
+    }
+  ]
+}
