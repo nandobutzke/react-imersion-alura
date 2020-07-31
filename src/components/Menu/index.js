@@ -1,9 +1,10 @@
+/* eslint-disable import/order */
 import React from 'react';
 import Logo from '../../assets/img/Logo.png';
 import { Link } from 'react-router-dom';
 import './Menu.css';
 import Button from '../Button';
-//import ButtonLink from '../Button';
+// import ButtonLink from '../Button';
 
 function Menu() {
   return (
@@ -15,7 +16,7 @@ function Menu() {
         Add New Video
       </Button>
     </nav>
-  )
+  );
 }
 
 export default Menu;
