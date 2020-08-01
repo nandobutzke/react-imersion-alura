@@ -2,224 +2,76 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
+      "titulo": "ET NANDU",
+      "cor": "#001aff",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos da série do Et Nandu!",
+        "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&feature=youtu.be"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "GPT-3",
+      "cor": "#000000",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "Playlist sobre a GPT-3",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Counter-Strike: Global Offensive",
+      "cor": "orange",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "Playlist do Prata ao Global",
+        "url": "https://www.youtube.com/playlist?list=PLwO5yImjajYbB_GpEW1w7ivvF-zTDrimI"
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "School",
+      "cor": "green"
     },
     {
       "id": 5,
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Rocketseat",
+      "cor": "#9B51E0",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Exemplos de projetos e aulas futuras",
+        "url": "https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg"
       }
     }
   ],
   "videos": [
     {
-      "id": 1,
+      "titulo": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
+      "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&t=",
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "id": 1
     },
     {
-      "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-    },
-    {
-      "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-    },
-    {
-      "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-    },
-    {
-      "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 8,
+      "titulo": "E Agora? Nova Inteligência Artificial Começou a Programar Sozinha",
+      "url": "https://www.youtube.com/watch?v=KdgKQoq1jk0&t=",
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "id": 2
     },
     {
-      "id": 9,
+      "titulo": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
+      "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&t=",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Lembra Daquela I.A. Que Programava Sozinha? Então...",
+      "url": "https://www.youtube.com/watch?v=Cr89Oz0TWQM",
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "id": 4
     },
     {
-      "id": 10,
+      "titulo": "Agora Aquela I.A. Foi Longe Demais (e vai mudar o jeito que você trabalha)",
+      "url": "https://www.youtube.com/watch?v=pbVwH8o837A&t=",
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-    },
-    {
-      "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-    },
-    {
-      "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-    },
-    {
-      "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-    },
-    {
-      "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-    },
-    {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-    },
-    {
-      "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-    },
-    {
-      "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-    },
-    {
-      "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-    },
-    {
-      "id": 24,
-      "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=Dkru3Q4MtgU",
-      "categoriaId": 2,
-      "id": 25
-    },
-    {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=Dkru3Q4MtgU",
-      "categoriaId": {
-        "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      "id": 26
-    },
-    {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=Dkru3Q4MtgU",
-      "categoriaId": {
-        "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      "id": 27
+      "id": 5
     }
   ]
 }

@@ -38,8 +38,8 @@ function App() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
+                videoTitle="ET NANDU"
+                url="https://www.youtube.com/watch?v=RfkFnIAlLpc&t="
                 videoDescription="Vídeos favoritos de Fernando Butzke!"
               />
 

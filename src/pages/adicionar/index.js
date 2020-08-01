@@ -47,15 +47,12 @@ function AdicionarVideo() {
           return categoria.titulo === values.categoria;
         });
 
-        console.log('categoriaEscolhida', categoriaEscolhida);
-
         videosRepository.create({
           titulo: values.titulo,
           url: values.url,
           categoriaId: categoriaEscolhida.id,
         })
         .then(() => {
-          console.log('Adicionado!');
           history.push('/');
         });
       }}
