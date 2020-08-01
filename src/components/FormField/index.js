@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable react/default-props-match-prop-types */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
-/* eslint-disable linebreak-style */ 
+/* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-closing-bracket-location */
 /* eslint-disable react/jsx-indent */
 /* eslint-disable linebreak-style */
@@ -96,11 +98,14 @@ const Input = styled.input`
 
 
 function FormField({
-  label, type, name, value, onChange,
+  label, type, name, value, onChange, suggestions,
 }) {
   const fieldId = `id_${name}`;
   const isTextArea = type === 'textarea';
   const tag = isTextArea ? "textarea" : "input";
+
+  const hasValue = Boolean(value.length);
+  const hasSuggestions = Boolean(suggestions.length);
 
   return (
     <FormFieldWrapper>
@@ -114,11 +119,27 @@ function FormField({
           value={value}
           name={name}
           onChange={onChange}
-          />
-          <Label.Text>
-            {label}
+          autoComplete={hasSuggestions ? "off" : "on"}
+          list={`suggestionFor_${fieldId}`}
+        />
+        <Label.Text>
+          {label}
             :
           </Label.Text>
+        {
+          hasSuggestions && (
+            <datalist id={`suggestionFor_${fieldId}`}>
+              {
+                suggestions.map((suggestion) => (
+                  <option values={suggestion} key={`suggestionFor_${fieldId}_option${suggestion}`}>
+                    {suggestion}
+                  </option>
+                ))
+              }
+            </datalist>
+          )
+        }
+
       </Label>
     </FormFieldWrapper>
   );
@@ -128,6 +149,7 @@ FormField.defaultProps = {
   type: 'text',
   value: '',
   onChange: () => { },
+  suggestions: [],
 };
 
 FormField.propTypes = {
@@ -136,6 +158,7 @@ FormField.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
   onChange: PropTypes.func,
+  suggestions: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default FormField;

@@ -1,3 +1,4 @@
+/* eslint-disable padded-blocks */
 /* eslint-disable linebreak-style */
 /* eslint-disable comma-dangle */
 /* eslint-disable linebreak-style */
@@ -22,6 +23,8 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
 import FormField from '../../components/FormField';
 import Button from '../../components/Button';
+import useForm from '../../hooks/useForm'
+
 
 function AdicionarCategoria() {
   const valoresIniciais = {
@@ -30,27 +33,12 @@ function AdicionarCategoria() {
     cor: '',
   };
 
+  const { handler, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategoria] = useState([]);
 
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    // chave: nome, descricao, cor, etc.
-    setValues({
-      ...values,
-      [chave]: valor, // nome: valor
-    });
-  }
-
-  function handler(info) {
-    setValue(
-      info.target.getAttribute('name'),
-      info.target.value,
-    );
-  }
 
   useEffect(() => {
-    console.log('efeito');
     const URL_TOP = 'http://localhost:8080/categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
@@ -78,7 +66,7 @@ function AdicionarCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm(valoresIniciais);
       }}
       >
 
@@ -111,11 +99,16 @@ function AdicionarCategoria() {
           Adicionar
         </Button>
 
+
+
+      </form>
+
+      {categorias.length === 0 && (
         <div>
           Loading...
         </div>
+      )}
 
-      </form>
 
       <ul>
         {categorias.map((categoria) => (
