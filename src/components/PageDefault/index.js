@@ -1,6 +1,3 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable import/order */
 import React from 'react';
 import Menu from '../Menu';
 import Footer from '../Footer';

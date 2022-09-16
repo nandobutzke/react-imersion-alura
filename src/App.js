@@ -1,9 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable no-shadow */
-/* eslint-disable no-console */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable padded-blocks */
 import React, { useEffect, useState } from 'react';
 import Menu from './components/Menu';
 import BannerMain from './components/BannerMain';
@@ -23,9 +17,6 @@ function App() {
         console.log(err.message);
       });
   }, []);
-
-  // http://localhost:8080/categorias?_embed=videos
-
 
   return (
     <PageDefault paddingAll={0}>
@@ -58,8 +49,6 @@ function App() {
           />
         );
       })}
-
-
 
       {/*       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}

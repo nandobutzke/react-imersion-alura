@@ -1,31 +1,3 @@
-/* eslint-disable react/jsx-closing-tag-location */
-/* eslint-disable react/default-props-match-prop-types */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable linebreak-style */
-/* eslint-disable react/jsx-closing-bracket-location */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable quotes */
-/* eslint-disable linebreak-style */
-/* eslint-disable indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-undef */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint-disable linebreak-style */
-// eslint-disable-next-line linebreak-style
-// eslint-disable-next-line linebreak-style
-/* eslint-disable react/require-default-props */
-/* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable linebreak-style */
-/* eslint-disable react/prop-types */
-/* eslint-disable linebreak-style */
 import React from 'react'; import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 

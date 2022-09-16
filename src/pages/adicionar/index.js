@@ -1,15 +1,3 @@
-/* eslint-disable arrow-body-style */
-/* eslint-disable padded-blocks */
-/* eslint-disable indent */
-/* eslint-disable no-sequences */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable import/no-named-as-default-member */
-/* eslint-disable no-restricted-globals */
-/* eslint-disable no-alert */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
