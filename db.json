@@ -1,42 +1,42 @@
 {
-  "categorias": [
+  "categories": [
     {
       "id": 1,
-      "titulo": "ET NANDU",
-      "cor": "#001aff",
-      "link_extra": {
+      "title": "ET NANDU",
+      "color": "#001aff",
+      "extra_link": {
         "text": "Vídeos da série do Et Nandu!",
         "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&feature=youtu.be"
       }
     },
     {
       "id": 2,
-      "titulo": "GPT-3",
-      "cor": "#000000",
-      "link_extra": {
+      "title": "GPT-3",
+      "color": "#000000",
+      "extra_link": {
         "text": "Playlist sobre a GPT-3",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       }
     },
     {
       "id": 3,
-      "titulo": "Counter-Strike: Global Offensive",
-      "cor": "orange",
-      "link_extra": {
+      "title": "Counter-Strike: Global Offensive",
+      "color": "orange",
+      "extra_link": {
         "text": "Playlist do Prata ao Global",
         "url": "https://www.youtube.com/playlist?list=PLwO5yImjajYbB_GpEW1w7ivvF-zTDrimI"
       }
     },
     {
       "id": 4,
-      "titulo": "School",
-      "cor": "green"
+      "title": "School",
+      "color": "green"
     },
     {
       "id": 5,
-      "titulo": "Rocketseat",
-      "cor": "#9B51E0",
-      "link_extra": {
+      "title": "Rocketseat",
+      "color": "#9B51E0",
+      "extra_link": {
         "text": "Exemplos de projetos e aulas futuras",
         "url": "https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg"
       }
@@ -44,46 +44,52 @@
   ],
   "videos": [
     {
-      "titulo": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
+      "title": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
       "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&t=",
-      "categoriaId": 1,
+      "categoryId": 1,
       "id": 1
     },
     {
-      "titulo": "E Agora? Nova Inteligência Artificial Começou a Programar Sozinha",
+      "title": "E Agora? Nova Inteligência Artificial Começou a Programar Sozinha",
       "url": "https://www.youtube.com/watch?v=KdgKQoq1jk0&t=",
-      "categoriaId": 2,
+      "categoryId": 2,
       "id": 2
     },
     {
-      "titulo": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
+      "title": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
       "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc&t=",
-      "categoriaId": 1,
+      "categoryId": 1,
       "id": 3
     },
     {
-      "titulo": "Lembra Daquela I.A. Que Programava Sozinha? Então...",
+      "title": "Lembra Daquela I.A. Que Programava Sozinha? Então...",
       "url": "https://www.youtube.com/watch?v=Cr89Oz0TWQM",
-      "categoriaId": 2,
+      "categoryId": 2,
       "id": 4
     },
     {
-      "titulo": "Agora Aquela I.A. Foi Longe Demais (e vai mudar o jeito que você trabalha)",
+      "title": "Agora Aquela I.A. Foi Longe Demais (e vai mudar o jeito que você trabalha)",
       "url": "https://www.youtube.com/watch?v=pbVwH8o837A&t=",
-      "categoriaId": 2,
+      "categoryId": 2,
       "id": 5
     },
     {
-      "titulo": "PIRATUBA'S TRIP!!!!! 👵🏼👵🏼👵🏼",
+      "title": "PIRATUBA'S TRIP!!!!! 👵🏼👵🏼👵🏼",
       "url": "https://www.youtube.com/watch?v=hBhM0yaqWPQ",
-      "categoriaId": 4,
+      "categoryId": 4,
       "id": 6
     },
     {
-      "titulo": "3ª02 - MATRIX",
+      "title": "3ª02 - MATRIX",
       "url": "https://www.youtube.com/watch?v=hMnewRuF4vI&feature=youtu.be",
-      "categoriaId": 4,
+      "categoryId": 4,
       "id": 7
+    },
+    {
+      "title": "THE LAST ET NANDU (2019) - Trailer (Dub) (EN-US)",
+      "url": "https://www.youtube.com/watch?v=RfkFnIAlLpc",
+      "categoryId": 4,
+      "id": 8
     }
   ]
 }

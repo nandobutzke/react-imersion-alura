@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import AdicionarVideo from './pages/adicionar';
-import AdicionarCategoria from './pages/categoria';
+import AddVideo from './pages/AddVideoOrCategory';
+import AddCategory from './pages/Categories';
 
 const erro404 = () => "Página 404";
 
@@ -13,8 +13,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={App} exact />
-      <Route path="/adicionar/video" component={AdicionarVideo} />
-      <Route path="/adicionar/categoria" component={AdicionarCategoria} />
+      <Route path="/adicionar/video" component={AddVideo} />
+      <Route path="/adicionar/categoria" component={AddCategory} />
       <Route component={erro404} />
     </Switch>
   </BrowserRouter>,

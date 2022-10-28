@@ -73,6 +73,7 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -114,12 +115,16 @@ export const WatchButton = styled.button`
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
+
   color: var(--black);
   background: var(--white);
   border-color: var(--black);
+
   transition: opacity .3s;
+  
   display: none;
   margin: 0 auto;
+
   @media (max-width: 800px) {
     display: block;
   }

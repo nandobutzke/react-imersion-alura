@@ -2,7 +2,7 @@ import config from '../config';
 
 const URL_VIDEOS = `${config.URL_BACKEND_TOP}videos`;
 
-function create(videoObject) {
+async function create(videoObject) {
   return fetch(`${URL_VIDEOS}?_embed=videos`, {
     method: 'POST',
     headers: {
