@@ -7,13 +7,13 @@ import Button from '../../components/Button';
 import videosRepository from '../../Repositories/VideosRepository';
 import CategoriesRepository from '../../Repositories/CategoriesRepository';
 
-function AdicionarVideo() {
+export default function AddVideo() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
   const { handler, values } = useForm({
     title: '',
     url: '',
-    categoria: '',
+    category: '',
   });
 
   async function handleSubmit(event) {
@@ -36,7 +36,7 @@ function AdicionarVideo() {
     async function loadCategories() {
       try {
         const categoriesData = await CategoriesRepository.getAll();
-  
+
         setCategories(categoriesData.map((category) => category.title));
       } catch {}
     }
@@ -67,14 +67,14 @@ function AdicionarVideo() {
         <FormField
           label="Categoria"
           name="categoria"
-          value={values.categoria}
+          value={values.category}
           onChange={handler}
           suggestions={categories}
         />
 
         <Button type="submit">
           Adicionar
-        </Button>  
+        </Button>
 
 
       </form>
@@ -86,5 +86,3 @@ function AdicionarVideo() {
 
   );
 }
-
-export default AdicionarVideo;

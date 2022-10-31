@@ -2,7 +2,7 @@ import config from '../config';
 
 const URL_CATEGORIES = `${config.URL_BACKEND_TOP}categories`;
 
-function getAll() {
+async function getAll() {
   return fetch(`${URL_CATEGORIES}`)
     .then(async (response) => {
 
